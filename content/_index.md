@@ -1,6 +1,6 @@
 ## Hi there Demo! 👋
 
-<img class="avatar" src="images/13151833_10201645185527915_2239601668557087317_n.jpg" alt="avatar">
+<img class="avatar" src="/images/avatar.jpg" alt="avatar">
 
 Hey, I'm Maverick - a minimal template. Maverick is a minimal Hugo blog theme base on Listed by Ronalds Vilciņš.
 
