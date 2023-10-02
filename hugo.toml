@@ -19,20 +19,20 @@ theme = "maverick"
 
 [menu]
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = "-110"
-  [[menu.main]]
     identifier = "categories"
     name = "Categories"
     url = "/categories/"
     weight = "-120"
   [[menu.main]]
     identifier = "posts"
-    name = "Post"
+    name = "Posts"
     url = "/posts/"
     weight = -200
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = -201
 
 [markup]
   [markup.goldmark.renderer]
