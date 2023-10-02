@@ -16,7 +16,6 @@ theme = "maverick"
   [params.comments]
     theme = 'github-light'
 
-
 [menu]
   [[menu.main]]
     identifier = "categories"
