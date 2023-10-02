@@ -1,12 +1,24 @@
-## Hi there Demo! 👋
+## Hi, I am Ivelin 👋
 
 <img class="avatar" src="/images/avatar.jpg" alt="avatar">
 
-Hey, I'm Maverick - a minimal template. Maverick is a minimal Hugo blog theme base on Listed by Ronalds Vilciņš.
+Welcome to my corner of the digital world! I'm Ivelin Yanev, and I'm thrilled to have you here at **FortranBits**. This is the place where I dive into the fascinating world of software, technology, and all things digital.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+As a passionate software enthusiast, I've embarked on a journey to explore the latest trends, share valuable insights, and provide you with a deeper understanding of the software landscape. Whether you're a seasoned developer, a curious tech enthusiast, or simply someone looking to demystify the world of code, you'll find something here for you.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus. Massa tempor nec feugiat nisl pretium fusce id velit. Morbi quis commodo odio aenean sed adipiscing. Senectus et netus et malesuada fames ac. Tortor condimentum lacinia quis vel eros donec ac odio. Risus in hendrerit gravida rutrum quisque. Posuere ac ut consequat semper. Sodales ut etiam sit amet
+Here at **FortranBits**, you can expect
 
-- 📺 Demo: 
-- ❤️ Github: 
+* **In-Depth Tutorials:** Step-by-step guides and tutorials that simplify complex software concepts and technologies.
+
+* **Tech Reviews:** Honest reviews of the latest software tools, frameworks, and gadgets to help you make informed decisions.
+
+* ***Insightful Articles:*** Thought-provoking articles on emerging trends, industry insights, and best practices.
+
+* **Coding Tips:** Tips and tricks to enhance your coding skills and productivity.
+
+I believe that technology has the power to shape our future, and I'm excited to share my knowledge and experiences with you. Whether you're here to learn something new or to stay updated with the ever-evolving tech landscape, I hope you find inspiration and valuable information on this blog.
+
+Thank you for joining me on this journey. Let's embark on this adventure into the digital realm together!
+
+Happy coding,
+Ivelin
