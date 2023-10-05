@@ -37,14 +37,22 @@ Consequently, during my second year at university, I shifted my focus towards mo
 
 Over the course of my career, I've had the privilege of working across a diverse range of companies, each offering unique challenges and opportunities. This journey has provided me with a broad spectrum of experience, spanning from robotic systems to web-based software solutions.
 
-My professional journey has encompassed a wide array of projects, including ventures into the realm of Medical Software development and embedded systems. Notably, I've been involved in developing autonomous systems with Odometry.
+My professional journey has spanned a diverse landscape of technologies and projects, and among them, I take great pride in the following accomplishments:
 
-In the realm of IoT (Internet of Things) and Industrial IoT (IIoT), I've architected and developed custom solutions, leveraging my proficiency in technologies like Qt, Qml, Java, and M2M communication protocols. One of my significant accomplishments involved creating a C8Y agent for DMG MORI's CNC machines. This agent facilitated the safe and efficient installation of software packages and updates, even in critical conditions. Additionally, I implemented a scheduler to process tasks within defined time windows, enhancing the agent's reliability and performance.
+* Autonomous System Design and Implementation: I led the design and implementation of a remarkable autonomous system. This project called for the integration of various sensor types, including gyroscopes, compasses, GPS, accelerometers, and wheel encoders. We implemented advanced algorithms leveraging odometers and Kalman filters to achieve exceptional results.
 
-Furthermore, I've contributed to and maintained a custom solution for T-Systems' IIoT facilities management, a project that demanded expertise in cloud computing, data analytics, and IoT sensor integration. Another notable achievement involved crafting a tailored migration solution for Schindler, accommodating the unique requirements of various device types. This solution streamlined their migration process and minimized downtime.
+* Parking Systems and Traffic Management: I spearheaded the design and implementation of parking systems, traffic counting solutions, and an innovative monitoring and occupancy detection system. These solutions have contributed to optimizing parking operations and traffic management.
 
-In my most recent project, I developed a new C8Y connectivity provider based on KITE integration for Telefonica. This integration seamlessly integrated with their existing infrastructure, significantly improving device management and monitoring capabilities.
+* C8Y Agent for DMG MORI's CNC Machines: I engineered a C8Y agent for DMG MORI's CNC machines, a critical component for ensuring the safe and efficient installation of software packages and updates, even in challenging conditions. As part of this project, I introduced a scheduler that effectively manages tasks within defined time windows, significantly enhancing the agent's reliability and performance.
 
-Throughout my career, I've delved into diverse domains, from Industrial IoT solutions to web-based systems and integrated parking solutions. As an experienced software engineer, I've honed my expertise in IoT, IIoT, Microservices, and IoT Edge Gateway technologies. In recent years, my primary focus has centered on building mission-critical, high-performance microservices-oriented systems using cutting-edge technologies such as Java Native Image and Go.
+* Custom IIoT Solution for T-Systems: I played a pivotal role in developing a custom solution tailored for T-Systems' IIoT facilities management. This endeavor demanded expertise in cloud computing, data analytics, and the seamless integration of IoT sensors, ultimately contributing to streamlined operations.
 
-While I've explored various programming languages, including Java, C, Qt, JavaScript, PHP, and Erlang, my current emphasis is on JVM (Java Virtual Machine) technologies. I firmly believe that programming languages are merely tools to help us achieve our goals, and my commitment remains unwavering in delivering excellence in software development.
+* Tailored Migration Solution for Schindler: I engineered a tailored migration solution that adeptly addressed the unique requirements of various device types within Schindler's ecosystem, resulting in a streamlined migration process and minimal downtime.
+
+* OSGi Runtime Platform for Web-Based Solutions**: I undertook the implementation of an OSGi runtime platform for web-based solutions, further diversifying my technical repertoire.
+
+In my career journey, I've navigated a rich tapestry of programming languages, including **Java, Go, C, Qt, JavaScript, PHP, and Erlang** .
+
+Currently, my passion is centered around **JVM (Java), GraalVM, MicroProfile, Quarkus, and Go**. These technologies drive my continuous pursuit of excellence and innovation in the ever-evolving world of software engineering.
+
+I firmly believe that programming languages are merely tools to help us achieve our goals, and my commitment remains unwavering in delivering excellence in software development.
