@@ -242,8 +242,10 @@ and use it.
 ### Define Your Configuration Interface
 
 ```java
+
 @ConfigMapping(prefix = "simple")
 public interface SimpleConfig {
+
   @WithName("source")
   String source();
 
@@ -268,4 +270,5 @@ your Quarkus application, enhancing its configurability and adaptability.
 By understanding these concepts and leveraging the power of MicroProfile Config, you can further
 optimize your Quarkus application's configuration management and streamline the development process.
 
-The full source code is available at [Github](https://github.com/iqnev/quarkus-load-configuration-from-externa-json-file "Title")
+The full source code is available
+at [Github](https://github.com/iqnev/quarkus-load-configuration-from-externa-json-file "Title")

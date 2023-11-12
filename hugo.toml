@@ -2,7 +2,7 @@ baseURL = 'https://iqnev.github.io/'
 languageCode = 'en-us'
 title = 'Codes are a puzzle'
 paginate = 3
-theme = "maverick"
+theme = ["maverick","hugo-notice"]
 
 
 [permalinks]

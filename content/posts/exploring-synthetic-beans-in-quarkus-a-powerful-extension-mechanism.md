@@ -116,7 +116,8 @@ public class MySyntheticBean {
 }
 ```
 
-2. __Create a Quarkus Extension:__ You'll need to create a Quarkus extension to register your synthetic
+2. __Create a Quarkus Extension:__ You'll need to create a Quarkus extension to register your
+   synthetic
    bean.
    This extension class will use `SyntheticBeanBuildItem` to configure your bean.
 
@@ -205,7 +206,6 @@ public class MyRecorder {
 ```
 
 Here the `.runtimeValue()` references the recorder method to instantiate the bean.
-__.runtimeValue__
 
 This allows passing a `RuntimeValue` directly to provide the synthetic bean instance.
 
@@ -259,9 +259,9 @@ However, direct bytecode generation with `.creator()` can still be useful for si
 recorders may be overkill. But as synthetic bean needs grow, recorders are a more powerful and
 advanced approach.
 
-*__[IMPORTANT]__*
-It is possible to configure a synthetic bean in Quarkus to be initialized during the `RUNTIME_INIT`
-phase instead of the default `STATIC_INIT` phase.
+{{< notice note >}} It is possible to configure a synthetic bean in Quarkus to be initialized during
+the `RUNTIME_INIT`
+phase instead of the default `STATIC_INIT` phase.{{< /notice >}}
 
 Here is an example:
 
