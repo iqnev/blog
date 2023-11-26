@@ -2,6 +2,8 @@
 title = 'Demystifying Quarkus Extension Development: Jandex vs. AdditionalBeanBuildItem'
 date = 2023-09-26T23:04:18+03:00
 
+images = ['images/quarkus_blogpost_formallogo.png']
+
 tags = ['Development', 'Quarkus', 'CDI', 'Extension']
 
 categories = ['quarkus']

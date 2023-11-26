@@ -2,6 +2,8 @@
 title = 'Extending Quarkus: When and How to Write Your Own Extensions'
 date = 2023-10-08T21:29:18+03:00
 
+images = ['images/quarkus_blogpost_formallogo.png']
+
 tags = ['Development', 'Quarkus', 'Extension']
 
 categories = ['quarkus']
@@ -117,7 +119,7 @@ optimizing resource usage.
 
 Runtime module:
 
-```java
+```java {linenos=inline}
 class CustomCacheService {
   
     // Core caching functionality using Java code
@@ -137,7 +139,7 @@ class CustomCacheService {
 
 Deployment module:
 
-```java
+```java {linenos=inline}
 class CustomCacheProcessor {
     @BuildStep
     FeatureBuildItem feature() {
@@ -149,7 +151,7 @@ class CustomCacheProcessor {
 
 Descriptor file: `custom-cache-extension.yaml`
 
-```yaml
+```yaml {linenos=inline}
 extension:
 name: custom-cache-extension
 metadata:

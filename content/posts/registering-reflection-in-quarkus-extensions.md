@@ -2,6 +2,8 @@
 title = 'Registering Reflection in Quarkus Extensions'
 date = 2023-11-26T14:04:18+03:00
 
+images = ['images/quarkus_blogpost_formallogo.png']
+
 tags = ['Development', 'Quarkus', 'Extension', 'GraalVM']
 
 categories = ['quarkus']
@@ -23,7 +25,7 @@ Using the `@RegisterForReflection` Annotation
 The simplest way to register a class for reflection is through the `@RegisterForReflection`
 annotation:
 
-```java
+```java {linenos=inline}
 @RegisterForReflection
 public class MyClass {
 }
@@ -31,8 +33,8 @@ public class MyClass {
 
 For classes in third-party JARs, an empty class can host the `@RegisterForReflection` annotation:
 
-```java
-@RegisterForReflection(targets={ DemoReflection1.class, DemoReflection2.class})
+```java {linenos=inline}
+@RegisterForReflection(targets={DemoReflection1.class, DemoReflection2.class})
 public class MyReflectionConfiguration {
 }
 ```
@@ -44,7 +46,7 @@ Using a Configuration File
 Configuration files can also be used to register classes for reflection. For instance, to register
 all methods of `com.demo.MyClass`, create `reflection-config.json`:
 
-```json
+```json {linenos=inline}
 [
 {
 "name" : "com.demo.MyClass",
@@ -62,7 +64,7 @@ all methods of `com.demo.MyClass`, create `reflection-config.json`:
 Make the configuration file known to the native-image executable by adding the following to
 `application.properties`:
 
-```properties
+```properties {linenos=inline}
 quarkus.native.additional-build-args=-H:ReflectionConfigurationFiles=reflection-config.json
 ```
 
@@ -83,14 +85,13 @@ bytecode manipulation, require runtime reflection.
 When creating a Quarkus extension, you can seamlessly integrate the registration of reflective
 classes using `ReflectiveClassBuildItem`.
 The `@BuildStep` annotation signifies a build step, a fundamental concept in Quarkus extension
-development.
+development. asdadfdf
 
-```java
+```java {linenos=inline}
 public class MyClass {
 
     @BuildStep
     ReflectiveClassBuildItem reflection() {
-        // Since reflection is needed only for the constructor, `false` is specified for both methods and fields arguments.
         return new ReflectiveClassBuildItem(false, false, "com.demo.DemoClass");
     }
 
@@ -106,10 +107,10 @@ constructor.
 
 I showcase a Quarkus extension that leverages the `ReflectiveClassBuildItem to` dynamically register
 classes for reflection.
-The extension focuses on identifying classes implementing a specific interface (Conversion in this
+The extension focuses on identifying classes implementing a specific interface (`CustomFeature` in this
 case) and also explicitly registers some standard Java classes for reflective access.
 
-```java
+```java {linenos=inline}
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.builditem.CombinedIndexBuildItem;
 import io.quarkus.deployment.builditem.nativeimage.ReflectiveClassBuildItem;
@@ -150,7 +151,7 @@ public class ReflectionExtension {
    interface and registers them for reflection using `ReflectiveClassBuildItem`.
 
 3. **DotName** is a class representing a dotted name, which is essentially a fully qualified class name
-   in a format where package names and class names are separated by dots. The DotName class is part
+   in a format where package names and class names are separated by dots. The `DotName` class is part
    of the **Jandex library**, which is a tool used by Quarkus for indexing and querying Java classes.
    `DotName` is used to represent and work with fully qualified class names in the **Jandex indexing**
    system. It's a lightweight and efficient way to refer to classes within the **Jandex index**.
@@ -158,12 +159,12 @@ public class ReflectionExtension {
 **Considerations:**
 While `ReflectiveClassBuildItem` provides a mechanism to address reflective access requirements, it's
 crucial to use it judiciously. Excessive reliance on reflective access can undermine the performance
-benefits of Quarkus' AOT compilation approach. Therefore, it's recommended to leverage this tool
+benefits of Quarkus' **AOT** compilation approach. Therefore, it's recommended to leverage this tool
 sparingly and explore alternative strategies whenever possible.
 
-In summary, understanding and effectively using ReflectiveClassBuildItem is key to optimizing
+In summary, understanding and effectively using `ReflectiveClassBuildItem` is key to optimizing
 Quarkus extensions for native mode. By selectively indicating classes that necessitate reflective
-access, developers can strike a balance between the advantages of AOT compilation and the
+access, developers can strike a balance between the advantages of **AOT** compilation and the
 unavoidable realities of certain runtime operations.
 
 

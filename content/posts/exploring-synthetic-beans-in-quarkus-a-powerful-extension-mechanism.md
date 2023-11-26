@@ -2,6 +2,8 @@
 title = 'Exploring Synthetic Beans in Quarkus: A Powerful Extension Mechanism'
 date = 2023-11-11T11:04:18+03:00
 
+images = ['images/quarkus_blogpost_formallogo.png']
+
 tags = ['Development', 'Quarkus', 'CDI', 'Extension']
 
 categories = ['quarkus']
@@ -63,7 +65,7 @@ This allows extensions to know when it is safe to interact with the beans that h
 
 For example:
 
-```java
+```java {linenos=inline}
 @BuildStep  
 void onSynthesisFinished(SynthesisFinishedBuildItem synthesisFinished){
     // CDI bean registration is complete, can now safely interact with beans
@@ -78,7 +80,7 @@ This is useful if you need to perform additional initialization logic involving 
 
 For example:
 
-```java
+```java {linenos=inline}
 @BuildStep
 SyntheticBeansRuntimeInitBuildItem initSyntheticBeans(){
 
@@ -104,7 +106,7 @@ Let's walk through the steps to create and use a synthetic bean:
 1. __Create the Synthetic Bean Class:__ Start by defining the synthetic bean class. This class will
    be the foundation for your synthetic bean.
 
-```java
+```java {linenos=inline}
 package com.iqnev;
 
 public class MySyntheticBean {
@@ -123,7 +125,7 @@ public class MySyntheticBean {
 
 ### Bytecode Generation Approach
 
-```java
+```java {linenos=inline}
 package com.iqnev;
 
 import io.quarkus.arc.deployment.SyntheticBeanBuildItem;
@@ -157,7 +159,7 @@ In this example:
 
 So essentially, we are telling Quarkus to generate a method that looks something like:
 
-```java
+```java {linenos=inline}
 MySyntheticBean createSyntheticBean(){
     return new MySyntheticBean();
     }
@@ -185,7 +187,7 @@ This allows you to instantiate the synthetic bean via a recorder class method an
 with `@Record(STATIC_INIT)`.
 For example:
 
-```java
+```java {linenos=inline}
 
 @Recorder
 public class MyRecorder {
@@ -211,7 +213,7 @@ This allows passing a `RuntimeValue` directly to provide the synthetic bean inst
 
 For example:
 
-```java
+```java {linenos=inline}
 @BuildStep 
 SyntheticBeanBuildItem syntheticBean(){
 
@@ -265,7 +267,7 @@ phase instead of the default `STATIC_INIT` phase.{{< /notice >}}
 
 Here is an example:
 
-```java
+```java {linenos=inline}
 @BuildStep
 @Record(RUNTIME_INIT)
 SyntheticBeanBuildItem lazyBean(BeanRecorder recorder){
@@ -290,7 +292,7 @@ eager `STATIC_INIT` instantiation is not needed. This allows optimizing startup 
 3. __Use the Synthetic Bean:__ Now that your synthetic bean is registered, you can inject and use it
    in your application.
 
-```java
+```java {linenos=inline}
 package com.iqnev;
 
 import javax.inject.Inject;

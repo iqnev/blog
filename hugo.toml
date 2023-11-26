@@ -46,10 +46,10 @@ theme = ["maverick","hugo-notice"]
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true
-    noClasses = true
     noHl = false
-    style = 'monokailight'
+    style = 'xcode-dark'
     tabWidth = 4
+    noClasses = true
 
 [taxonomies]
   tag = "tags"

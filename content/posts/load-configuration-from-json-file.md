@@ -2,6 +2,8 @@
 title = 'Creating Custom Configuration in Quarkus Loaded from JSON File'
 date = 2023-10-14T21:00:18+03:00
 
+images = ['images/quarkus_blogpost_formallogo.png']
+
 tags = ['Development', 'Quarkus', 'MicroProfile', 'JSON']
 
 categories = ['quarkus']
@@ -58,7 +60,7 @@ Here is an overview of its key functionalities:
 * Specifying the source's ordinal value.
 * Assigning a unique name to the source, which will be used for registration.
 
-```java
+```java {linenos=inline}
 
 @Slf4j
 public class JsonConfigSource implements ConfigSource {
@@ -165,7 +167,7 @@ Here is an overview of its key functionalities:
 * Building an instance of JsonConfigSource.
 * Assigning a priority value to the factory.
 
-```java
+```java {linenos=inline}
 
 @Slf4j
 public class JsonConfigSourceFactory implements ConfigSourceFactory {
@@ -231,7 +233,7 @@ and use it.
 
 ### The JSON file
 
-```json
+```json {linenos=inline}
 {
   "simple.service": "pusher",
   "simple.source": "source",
@@ -241,7 +243,7 @@ and use it.
 
 ### Define Your Configuration Interface
 
-```java
+```java {linenos=inline}
 
 @ConfigMapping(prefix = "simple")
 public interface SimpleConfig {
