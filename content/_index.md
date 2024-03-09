@@ -6,11 +6,11 @@ show_social_links: true
 
 <img class="avatar" src="/images/avatar.jpg" alt="avatar">
 
-Welcome to my corner of the digital world! I'm Ivelin Yanev, and I'm thrilled to have you here at **FortranBits**. This is the place where I dive into the fascinating world of software, technology, and all things digital.
+Welcome to my corner of the digital world! I'm Ivelin Yanev. This is the place where I dive into the fascinating world of software, technology, and all things digital.
 
 As a passionate software enthusiast, I've embarked on a journey to explore the latest trends, share valuable insights, and provide you with a deeper understanding of the software landscape. Whether you're a seasoned developer, a curious tech enthusiast, or simply someone looking to demystify the world of code, you'll find something here for you.
 
-Here at **FortranBits**, you can expect
+What you can expect?
 
 * **In-Depth Tutorials:** Step-by-step guides and tutorials that simplify complex software concepts and technologies.
 
