@@ -6,7 +6,7 @@ images = ['images/message_queuing.png']
 
 tags = ['design', 'message-queuing']
 
-categories = ['design']
+categories = ['Design']
 
 noComment = false
 +++

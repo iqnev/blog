@@ -6,7 +6,7 @@ images = ['images/java-ee.png']
 
 tags = ['cdi', 'dependency-injection', 'java-ee']
 
-categories = ['quarkus']
+categories = ['Quarkus']
 
 noComment = false
 +++

@@ -6,7 +6,7 @@ images = ['images/smart_parking.png']
 
 tags = ['design']
 
-categories = ['design']
+categories = ['Design']
 
 noComment = false
 +++

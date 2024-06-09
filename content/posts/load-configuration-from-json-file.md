@@ -4,9 +4,9 @@ date = 2023-10-14T21:00:18+03:00
 
 images = ['images/quarkus_blogpost_formallogo.png']
 
-tags = ['Development', 'Quarkus', 'MicroProfile', 'JSON']
+tags = ['development', 'quarkus', 'microprofile', 'json']
 
-categories = ['quarkus']
+categories = ['Quarkus']
 
 noComment = false
 +++

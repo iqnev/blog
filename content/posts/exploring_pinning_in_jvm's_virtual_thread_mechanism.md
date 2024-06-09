@@ -4,9 +4,9 @@ date = 2024-03-28
 
 images = ['images/vthreads.png']
 
-tags = ['JVM', 'Virtual Threads', 'Java']
+tags = ['jvm', 'virtual threads', 'java']
 
-categories = ['jvm']
+categories = ['JVM']
 
 noComment = false
 +++

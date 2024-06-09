@@ -6,7 +6,7 @@ images = ['images/reactive.png']
 
 tags = ['design', 'reactive']
 
-categories = ['design']
+categories = ['Design']
 
 noComment=false
 +++

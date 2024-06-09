@@ -4,9 +4,9 @@ date = 2023-11-26T14:04:18+03:00
 
 images = ['images/quarkus_blogpost_formallogo.png']
 
-tags = ['Development', 'Quarkus', 'Extension', 'GraalVM']
+tags = ['development', 'quarkus', 'extension', 'graalvm']
 
-categories = ['quarkus']
+categories = ['Quarkus']
 
 noComment = false
 +++

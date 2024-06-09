@@ -6,7 +6,7 @@ images = ['images/Mandrel_specialized_distribution_GraalVM-01.png']
 
 tags = ['quarkus', 'graalvm', 'microservice']
 
-categories = ['quarkus']
+categories = ['Quarkus']
 
 noComment = false
 +++
