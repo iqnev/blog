@@ -14,3 +14,10 @@ hugo.linux
 
 # Temporary lock file while building
 .hugo_build.lock
+
+# Ignore specific SonarLint related files:
+.idea/sonarlint/issuestore/index.pb
+.idea/sonarlint/securityhotspotstore/index.pb
+
+# Ignore VCS configuration file:
+.idea/vcs.xml
