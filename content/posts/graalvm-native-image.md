@@ -281,5 +281,3 @@ GraalVM Native Image is a powerful technology that can revolutionize the way you
 - More cost-effective
 
 GraalVM Native Image is a key enabler of cloud-native Java development and can help you achieve the performance, scalability, and cost savings that your business demands.
-
-I hope this updated text is more helpful!
